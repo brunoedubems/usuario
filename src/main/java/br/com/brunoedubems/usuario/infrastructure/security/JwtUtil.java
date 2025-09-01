@@ -1,4 +1,4 @@
-package br.com.brunoedubems.infrastructure.security;
+package br.com.brunoedubems.usuario.infrastructure.security;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

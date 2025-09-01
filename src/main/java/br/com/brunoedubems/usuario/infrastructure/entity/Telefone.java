@@ -1,4 +1,4 @@
-package br.com.brunoedubems.infrastructure.entity;
+package br.com.brunoedubems.usuario.infrastructure.entity;
 
 import jakarta.persistence.*;
 import lombok.*;

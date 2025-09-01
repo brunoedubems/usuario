@@ -1,6 +1,6 @@
-package br.com.brunoedubems.infrastructure.repository;
+package br.com.brunoedubems.usuario.infrastructure.repository;
 
-import br.com.brunoedubems.infrastructure.entity.Endereco;
+import br.com.brunoedubems.usuario.infrastructure.entity.Endereco;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

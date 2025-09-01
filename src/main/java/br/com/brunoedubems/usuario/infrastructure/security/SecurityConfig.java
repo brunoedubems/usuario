@@ -1,4 +1,4 @@
-package br.com.brunoedubems.infrastructure.security;
+package br.com.brunoedubems.usuario.infrastructure.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

@@ -1,6 +1,6 @@
-package br.com.brunoedubems.infrastructure.repository;
+package br.com.brunoedubems.usuario.infrastructure.repository;
 
-import br.com.brunoedubems.infrastructure.entity.Usuario;
+import br.com.brunoedubems.usuario.infrastructure.entity.Usuario;
 import jakarta.transaction.Transactional;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

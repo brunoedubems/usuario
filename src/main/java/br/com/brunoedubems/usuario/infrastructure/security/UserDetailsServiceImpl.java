@@ -1,8 +1,8 @@
-package br.com.brunoedubems.infrastructure.security;
+package br.com.brunoedubems.usuario.infrastructure.security;
 
 
-import br.com.brunoedubems.infrastructure.entity.Usuario;
-import br.com.brunoedubems.infrastructure.repository.UsuarioRepository;
+import br.com.brunoedubems.usuario.infrastructure.entity.Usuario;
+import br.com.brunoedubems.usuario.infrastructure.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

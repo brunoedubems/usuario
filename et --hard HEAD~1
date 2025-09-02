@@ -1,0 +1,17 @@
+[33mcommit 71bf487054c0db1c3a571786818a22c97c65a0b9[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: brunoedubems <bemds1@aluno.ifnmg.edu.br>
+Date:   Mon Sep 1 13:48:13 2025 -0300
+
+    feat: adiciona as classes de security
+
+[33mcommit 37d6d187f484978969a82ae21d638088b2686bfd[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Bruno Eduardo <91034858+brunoedubems@users.noreply.github.com>
+Date:   Mon Sep 1 13:28:22 2025 -0300
+
+    Create gradle.yml
+
+[33mcommit 36744e2235bdfbfe89204d8ed1959c5302f13a82[m
+Author: brunoedubems <bemds1@aluno.ifnmg.edu.br>
+Date:   Mon Sep 1 13:23:07 2025 -0300
+
+    commit inicial

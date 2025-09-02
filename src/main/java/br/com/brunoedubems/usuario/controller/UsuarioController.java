@@ -1,6 +1,8 @@
 package br.com.brunoedubems.usuario.controller;
 
 import br.com.brunoedubems.usuario.business.UsuarioService;
+import br.com.brunoedubems.usuario.business.dto.EnderecoDTO;
+import br.com.brunoedubems.usuario.business.dto.TelefoneDTO;
 import br.com.brunoedubems.usuario.business.dto.UsuarioDTO;
 import br.com.brunoedubems.usuario.infrastructure.security.JwtUtil;
 import org.springframework.http.ResponseEntity;
@@ -50,8 +52,21 @@ public class UsuarioController {
     }
 
     @PutMapping
-    public  ResponseEntity<UsuarioDTO> atualizaDadosUsuario(@RequestBody UsuarioDTO usuarioDTO,
-                                                            @RequestHeader("Authorization")String token){
-        return ResponseEntity.ok(usuarioService.atualizaDadosUsuario(token,usuarioDTO));
+    public ResponseEntity<UsuarioDTO> atualizaDadosUsuario(@RequestBody UsuarioDTO usuarioDTO,
+                                                           @RequestHeader("Authorization") String token) {
+        return ResponseEntity.ok(usuarioService.atualizaDadosUsuario(token, usuarioDTO));
     }
+
+    @PutMapping("/endereco")
+    public ResponseEntity<EnderecoDTO> atualizarEndereco(@RequestBody EnderecoDTO dto,
+                                                         @RequestParam("id") Long id) {
+        return ResponseEntity.ok(usuarioService.atualizaEndereco(id, dto));
+    }
+
+    @PutMapping("/telefone")
+    public ResponseEntity<TelefoneDTO> atualizarTelefone(@RequestBody TelefoneDTO dto,
+                                                         @RequestParam("id") Long id) {
+        return ResponseEntity.ok(usuarioService.atualizaTelefone(id, dto));
+    }
+
 }
